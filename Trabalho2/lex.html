@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Document about Lex -->
+<html>
+<head>
+    <!-- document global style-->
+    <style>
+        body {
+            color: lightgray;
+            background-color: rgb(30, 30, 30);
+            font-family: cursive;
+            font-size: 90%;
+        }
+        h1 {
+            color: khaki;
+        }
+        h2 {
+            color:lemonchiffon;
+        }
+        a {
+            color: pink;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
+    <title>Lex</title>
+</head>
+
+<body>
+    <h1>The LEXical Analyser</h1>
+
+    <h2>Introduction</h2>
+
+    <p> <b>Lex</b> is a computer program that generates lexical analyzers ("scanners" or "lexers").
+    Lex is commonly used with the yacc parser generator. Lex, originally written by Mike Lesk and Eric Schmidt and described in 1975, 
+    is the standard lexical analyzer generator on many Unix systems, and an equivalent tool is specified as part of the POSIX standard.
+    Lex reads an input stream specifying the lexical analyzer and outputs source code implementing the lexer in the C programming language. </p>
+
+    <h2>History</h2>
+
+    <p>Though originally distributed as proprietary software, some versions of Lex are now open source. Open source versions of Lex, based on 
+    the original AT&T code are now distributed as open source systems such as <i>OpenSolaris</i> from Bell Labs. One popular open source 
+    version of Lex, called flex, or the "fast lexical analyzer", is not derived from proprietary coding:</p>
+
+    <table width="400">
+        <tr>
+            <th align="center">Name</th>
+            <th align="center">Algorithm</th>
+            <th align="center">Language</th>
+            <th align="center">License</th>
+        </tr>
+        <tr>
+            <td align="center">lex</td>
+            <td align="center">DFA</td>
+            <td align="center">C</td>
+            <td align="center">CDDL</td>
+        </tr>
+        <tr>
+            <td align="center">flex</td>
+            <td align="center">DFA</td>
+            <td align="center">C,C++</td>
+            <td align="center">BSD</td>
+        </tr>
+    </table>
+
+    <h2>Structure of a Lex file</h2>
+
+    <p>The structure of a Lex file is intentionally similar to that of a yacc file; files are divided into three sections, separated by lines 
+    that contain only two percent signs, as follows:</p>
+    <ul>
+        <li>The <b>definition</b> section defines macros and imports header files written in C.</li>
+        <li>The <b>rules</b> section associates regular expression patterns with C statements.</li>
+        <li>The <b>code</b> section contains C statements and functions that are copied verbatim to the generated source file.</li>
+    </ul>
+
+    <h2>Example lexical analyzer</h2>
+
+    <p>This is an example of a lex scanner:</p>
+    <!-- image original size: 573x620 -->
+    <br>
+    <img src="Images/lex.png" alt="Lex Sample" width="459" height="496">
+    <br>
+    <p>More information can be found in the <a href="https://en.wikipedia.org/wiki/Lex_(software)">wikipedia</a>.</p>
+    <br>
+</body>
+</html> 

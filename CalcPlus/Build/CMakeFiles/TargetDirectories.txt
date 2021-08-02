@@ -1,0 +1,3 @@
+/home/aleff/Área de Trabalho/Lab25/CalcPlus/Build/CMakeFiles/rebuild_cache.dir
+/home/aleff/Área de Trabalho/Lab25/CalcPlus/Build/CMakeFiles/edit_cache.dir
+/home/aleff/Área de Trabalho/Lab25/CalcPlus/Build/CMakeFiles/calc.dir

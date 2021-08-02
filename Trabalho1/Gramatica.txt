@@ -1,0 +1,29 @@
+
+program → math block
+
+block → { decls stmts }
+
+decls → decls decl
+| ϵ
+
+decl → type id;
+
+stmts → stmts stmt
+| ϵ
+
+stmt → block
+| fact;
+
+fact → term R
+R → + term R
+| - term R
+| ϵ
+
+term →  tuts R
+T → * tuts T
+| / tuts T
+| ϵ
+
+tuts → (fact)
+| num
+| id

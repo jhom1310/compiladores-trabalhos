@@ -1,0 +1,56 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aleff/Área de Trabalho/Lab25/CalcPlus/Build/lexer.cpp
+stdio.h
+-
+string.h
+-
+errno.h
+-
+stdlib.h
+-
+inttypes.h
+-
+parser.h
+/home/aleff/Área de Trabalho/Lab25/CalcPlus/Build/parser.h
+unistd.h
+-
+
+/home/aleff/Área de Trabalho/Lab25/CalcPlus/Build/parser.cpp
+iostream
+-
+string
+-
+unordered_map
+-
+math.h
+-
+limits.h
+-
+stdint.h
+-
+stddef.h
+-
+stddef.h
+-
+libintl.h
+-
+alloca.h
+-
+malloc.h
+-
+stdlib.h
+-
+stdlib.h
+-
+stdio.h
+-
+
+/home/aleff/Área de Trabalho/Lab25/CalcPlus/Build/parser.h
+
